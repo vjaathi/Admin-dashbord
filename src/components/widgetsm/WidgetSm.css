@@ -1,0 +1,63 @@
+.widgetsm{
+    flex: 1;
+    box-shadow: 1px 10px 25px -12px rgba(0,0,0,0.74);
+    padding: 20px ;
+    margin-top: 20px;
+}
+
+.widgetsmtitle{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.widgetsmlist{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.widgetsmimg{
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 40px;
+}
+
+.widgetsmlistitem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.widgetsmuser{
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetsmusername{
+    font-weight: 700;
+    font-size: 20px;
+
+}
+
+.widgetsmuserjob{
+    color: grey;
+}
+
+.widgetsmbtn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 10px;
+    gap: 3px;
+    padding: 5px;
+    color: grey;
+}
+
+.visibleicon{
+    font-size: 20px !important;
+    margin-right: 3px;
+    color: black;
+}
