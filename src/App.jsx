@@ -6,7 +6,7 @@ import Home from './pages/home/Home'
 import { BrowserRouter,Route, Router, Routes } from "react-router-dom";
 import UserList from './pages/userlist/UserList';
 import User from './pages/user/User';
-import NewUser from './pages/newUser/newUser';
+import NewUser from './pages/newUser/NewUser';
 import ProductList from './pages/productlist/productList';
 import Product from './pages/product/Product';
 import NewProduct from './pages/newProduct/NewProduct';
